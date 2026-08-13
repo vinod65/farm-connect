@@ -1,0 +1,137 @@
+.auth-page {
+  min-height: 100vh;
+  background: #f4f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.auth-container {
+  width: 90%;
+  max-width: 1200px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.auth-left {
+  background: linear-gradient(to right, #0f7c38, #27ae60);
+  color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-left h1 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.auth-left p {
+  margin-top: 25px;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.auth-left img {
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.auth-right {
+  padding: 70px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-right h2 {
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  padding: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1b8f3f;
+}
+
+.auth-btn {
+  background: #1b8f3f;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.auth-btn:hover {
+  background: #13682d;
+}
+
+.auth-bottom-text {
+  text-align: center;
+  margin-top: 10px;
+  color: gray;
+}
+
+@media (max-width: 900px) {
+
+  .auth-container {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-left {
+    display: none;
+  }
+
+  .auth-right {
+    padding: 50px 30px;
+  }
+
+  .auth-right h2 {
+    font-size: 34px;
+  }
+
+  .auth-link {
+  color: #1b8f3f;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+}

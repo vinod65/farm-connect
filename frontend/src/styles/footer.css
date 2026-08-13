@@ -1,0 +1,22 @@
+.footer {
+  background: #111827;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 38px;
+}
+
+.footer p {
+  margin-top: 20px;
+  color: #cbd5e1;
+  font-size: 18px;
+}
+
+.footer small {
+  display: block;
+  margin-top: 20px;
+  color: gray;
+}
