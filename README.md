@@ -123,11 +123,6 @@ Farm-Connect
 ### Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard-page.png)
 
-## 👨‍💻 Author
 
-**Harshavardhan S V**
 
-* Java Full Stack Developer
-* React.js | Spring Boot | MySQL
-* GitHub: https://github.com/harsha70900
-* LinkedIn: https://www.linkedin.com/in/harshavardhansv/
+
